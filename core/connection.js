@@ -1,4 +1,13 @@
 //connection.js
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const crypto = require('crypto');
+
+// Polyfill crypto for browser environment
+if (!globalThis.crypto) {
+    globalThis.crypto = crypto;
+}
+
 import {
     makeWASocket,
     initAuthCreds,
