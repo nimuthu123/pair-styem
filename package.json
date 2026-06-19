@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
-    "express": "^5.2.1",
-    "mongodb": "^7.3.0",
-    "mongoose": "^9.7.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
     "qrcode": "^1.5.4",
-    "bson": "7.3.0"
+    "bson": "^6.8.0"
   },
   "engines": {
     "node": ">=18.0.0"
